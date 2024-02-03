@@ -5,7 +5,6 @@ app = Flask(__name__) # initial Object
 @app.route('/')
 
 def helloworld():
-    #return 'Hola mundo desde Python y Flask'
     return 'Debug project Python y Flask'
 
 # Modified program for see debug incorport Werkzeug
