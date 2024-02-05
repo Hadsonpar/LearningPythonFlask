@@ -1,2 +1,2 @@
 # LearningPythonFlask
-Resource about learning of Python an Flask Framework
+Resource about learning of Python and Flask Framework
