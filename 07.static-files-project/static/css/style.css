@@ -1,0 +1,46 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+a {
+    color: #F57E57;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  
+  a:hover {
+    color: #065b2f;
+    text-decoration: none;
+  }
+  
+  a:link, a:active {
+    text-decoration:none;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Nunito", sans-serif;
+  }
+
+  h1 {
+    font-size: 25px;
+    color: #F57E57;
+  }
+
+  h3 {
+    font-size: 18px;
+    color: #065b2f;
+  }
+  
+  input[type=text] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+
+input[type=submit] {
+    font-size: 30px;
+    color: #065b2f;
+    padding: 7px 8px;
+}
