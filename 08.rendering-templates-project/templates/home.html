@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{page}} - Page</title>
+    <!--use the directory special 'static' and 'static' endpoint in url name for file access-->
+    <!--style.css access-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>     
+    <h1>{{page}}</h1>
+    <h3>{{content}}</h3>
+    <br>
+    <a href="/">Index</a>
+</body>
+</html>

@@ -1,0 +1,56 @@
+body{
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+a {
+  color: #F57E57;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+a:hover {
+  color: #065b2f;
+  text-decoration: none;
+}
+
+a:link, a:active {
+  text-decoration:none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+h1 {
+  font-size: 35px;
+  color: #F57E57;
+}
+
+h3 {
+  font-size: 28px;
+  color: #065b2f;
+}  
+
+ol {
+  background: #F57E57;
+  padding: 20px;
+}
+
+ul {
+  background: #065b2f;
+  padding: 20px;
+}
+
+ol li {
+  background: #fff;
+  color: #F57E57;
+  padding: 5px;
+  margin-left: 35px;
+}
+
+ul li {
+  background: #cce5ff;
+  color: darkblue;
+  margin: 5px;
+}
