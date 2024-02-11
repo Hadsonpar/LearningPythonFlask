@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Request Object - Demo</title>
+    <!--use the directory special 'static' and 'static' endpoint in url name for file access-->
+    <!--style.css access-->
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>	
+	<h1>Learning Python and Falsk Framework</h1>
+    <h2>Wellcome - {{profiles}}</h2>
+    <img src="{{url_for('static', filename='img/flask-horizontal.webp')}}"/>
+
+    <div class="close-wp">
+        <a href="/login">Close</a>
+    </div>    
+</body>
+</html>
